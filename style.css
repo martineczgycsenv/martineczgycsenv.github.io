@@ -1,0 +1,163 @@
+.webpage {
+  width: 1300px;
+  margin-top: 0;
+  margin: 0 auto 0 auto;
+  text-align: left;  
+}
+
+body {
+  font-size: 19px;
+  text-align: center;
+}
+
+.header h1, blockquote {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.header {
+  font-size: 18px; 
+  position: relative;
+  color: #222;
+  background: no-repeat top/250% url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-size: 300% 90%;
+  margin: 0;
+  padding: 0px;
+ }
+
+.header h1 {
+  line-height: 140%;
+  font-size: 55px;
+  margin-bottom: 60px;
+  position: absolute;
+  bottom: 50px;
+  left: 150px;
+}
+
+#anakin {
+  font-size: 100px;
+}
+
+p, ul {
+  color: #222;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 170%;
+  letter-spacing: -1px;
+  Font-stretch: expanded;
+}
+
+p {
+  margin-top: 25px;
+}
+
+ul{
+  list-style-type: square;
+}
+.other_sections ul, .other_paragraphs {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.first_section {
+  font-size: 28px;
+}
+
+.first_ul {
+  margin-bottom: 280px;
+}
+
+h1, h2, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+
+.blockquote {
+  font-size: 75px;
+  font-weight: bold;
+  background: #222;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+  margin-left: -12%;
+  margin-right: -12%;
+  text-align: left;
+  position: relative;
+}
+
+
+ h2 {
+  text-transform: uppercase;
+  font-size: 42px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  margin-bottom: 0;
+  font-size: 35px;
+}
+
+.italic_text {
+  font-size: 25px;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+#first_single_quote, #second_single_quote, #third_single_quote {
+  color: white;
+  font-size: 230px;
+  font-weight: bold;
+  font-family: 'IM Fell French Canon SC', serif;
+  letter-spacing: -10px;
+  position: absolute;
+  transform: rotate(180deg);
+  top: -90px;
+  left: 4px;
+}
+
+
+.main_content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+}
+
+.boxes { 
+  box-sizing: border-box;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 80px;
+  padding-top: 50px;
+}
+
+.header, .blockquote, .whiteboxone {
+  width: 43%;
+}
+
+.firsttext_box, .secondtext_box, .thirdtext_box, .fourthtext_box {
+  width: 57%;
+}
+
+button {
+  color: white;
+  background: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin-right: 0px;
+  border: 4px solid black;
+}
+
+.zero_header {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 140px;
+  background: black; 
+}
